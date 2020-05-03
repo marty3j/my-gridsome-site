@@ -16,4 +16,4 @@ Run in bash
 gridsome develop
 ```
 
-Note: Encounter issue while creating the gridsome app under windows command promt.
+Note: Encounter issue while creating the gridsome app under windows command prompt.
