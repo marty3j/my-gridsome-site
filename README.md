@@ -1,6 +1,19 @@
-# my-gridsome-site
+# My Gridsome
+## Installation
 Download the folder
+
 Install gridsome CLI.
-Run "npm install" on bash/sh. 
-Run "gridsome develop" on bash/sh. 
+
+Run in bash
+
+```bash
+npm install
+```
+
+Run in bash
+
+```bash
+gridsome develop
+```
+
 Note: Encounter issue while creating the gridsome app under windows command promt.
