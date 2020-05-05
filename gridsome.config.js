@@ -6,5 +6,9 @@
 module.exports = {
   siteName: 'Flickr Gallery',
   plugins: [],
+  templates: {
+    FlickrPost: '/blog/:id'
+  }
   
 }
+

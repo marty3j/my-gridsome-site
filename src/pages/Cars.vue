@@ -8,7 +8,6 @@
           <b-img class="imgcornerthumbnail" thumbnail v-bind:src="post.node.context.media.m" :key="post.id"/>
         </g-link>
         </div>
-        
       </div>
     </div>
   </MainLayout>
@@ -16,7 +15,7 @@
 
 <page-query>
 query{
-  allFlickrPost (filter:{tags:{regex:"car"}}) {
+  allFlickrPost (filter:{tags:{regex:" car "}}) {
     edges{
       node{
         title
@@ -25,7 +24,6 @@ query{
         tags
 	context{
           author,
-          description
           media{m}
         }
       }

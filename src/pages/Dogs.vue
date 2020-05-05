@@ -15,7 +15,7 @@
 
 <page-query>
 query{
-  allFlickrPost (filter:{tags:{regex:"dog"}}) {
+  allFlickrPost (filter:{tags:{regex:" dog "}}) {
     edges{
       node{
         title
@@ -24,7 +24,6 @@ query{
         tags
 	context{
           author,
-          description
           media{m}
         }
       }

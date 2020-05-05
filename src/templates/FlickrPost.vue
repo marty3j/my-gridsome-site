@@ -38,21 +38,19 @@
 </template>
 
 <page-query>
-query allFlickrPost ($path: String!) {
-  flickrPost: flickrPost (path: $path) {
+query allFlickrPost ($id: ID) {
+  flickrPost: flickrPost (id: $id) {
     id
     title
     path
     tags
     context{
       author
-      description
       media{m}
     }
   }
 }
 </page-query>
-
 <script>
 export default {
   props: {},

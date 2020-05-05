@@ -24,7 +24,6 @@ query  {
         path
 				context{
           author,
-          description
           media{
             m
             }
